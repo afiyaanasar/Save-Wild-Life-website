@@ -1,0 +1,438 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #262626;
+}
+
+#mainpic {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  height: 40%;
+  width: 45%;
+  opacity: 0.9;
+}
+
+.topnav {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #B78700;
+  color: white;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  top: 8px;
+  left: 50px;
+  position: absolute;
+}
+
+#animalsWW {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+#animalsWW h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+#animalsWW p {
+  text-align: center;
+}
+
+#left {
+  float: left;
+  width: 25%;
+  border: 1px solid #262626;
+}
+
+#center {
+  width: 25%;
+  margin: 0 auto;
+  border: 1px solid #262626;
+}
+
+#right {
+  float: right;
+  width: 25%;
+  border: 1px solid #262626;
+}
+
+.helpAni img {
+  height: 250px;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.helpAni h3 {
+  text-align: center;
+  transition: 0.4s;
+  color: white;
+}
+
+.helpAni p {
+  color: #B78700;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.helpAni {
+  border: 1px solid #262626;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.helpAni:hover {
+  background-color: #B78700;
+  transition: all .4s ease;
+}
+
+.helpAni:hover h3 {
+  color: white;
+  transition: all .4s ease;
+}
+
+.helpAni:hover p {
+  color: white;
+  transition: all .4s ease;
+}
+
+.helpAni:hover img {
+  transition: all .4s ease;
+  transform: scale(1.1);
+}
+
+#donate {
+  margin-left: 45%;
+  background-color: #B78700;
+  padding: 5px;
+  width: 10%;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+#donate p {
+  font-weight: bold;
+  color: white;
+}
+
+#donate a {
+  text-decoration: none;
+}
+
+#donate:hover {
+  transform: scale(1.1);
+  transition: all .4s ease;
+}
+
+#team {
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#team h1 {
+  text-decoration: underline;
+  color: white;
+}
+
+#team h3 {
+  color: white;
+}
+
+#team #left h3 {
+  transition: 0.4s;
+}
+
+#team #left:hover h3 {
+  color: black;
+  transition: all 0.4s ease;
+}
+
+#team #right h3 {
+  transition: 0.4s;
+}
+
+#team #right:hover h3 {
+  color: black;
+  transition: all 0.4s ease;
+}
+
+#team #center h3 {
+  transition: 0.4s;
+}
+
+#team #center:hover h3 {
+  color: black;
+  transition: all 0.4s ease;
+}
+
+#team p {
+  color: #808080;
+}
+
+#team img {
+  height: 100px;
+  width: 100px;
+  color: #B78700;
+}
+
+#team #left {
+  transition: 0.4s;
+  padding: 10px;
+}
+
+#team #left:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.1);
+  transition: all .4s ease;
+}
+
+#team #center {
+  transform: scale(1.0);
+  transition: 0.4s;
+  padding: 10px;
+}
+
+#team #center:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.1);
+  transition: all .4s ease;
+}
+
+#team #right {
+  transform: scale(1.0);
+  transition: 0.4s;
+  padding: 10px;
+}
+
+#team #right:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.1);
+  transition: all .4s ease;
+}
+
+hr {
+  margin-top: 80px;
+}
+
+#seeMore {
+  margin-left: 47%;
+  margin-top: 15px;
+  background-color: #B78700;
+  padding: 10px;
+  width: 6%;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+#seeMore p {
+  font-weight: bold;
+  color: white;
+}
+
+#seeMore a {
+  text-decoration: none;
+}
+
+#seeMore:hover {
+  transform: scale(1.1);
+  transition: all .4s ease;
+}
+
+#about h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#about {
+  margin-top: 70px;
+  width: 70%;
+  margin-left: 15%;
+  overflow: hidden;
+  color: white;
+}
+
+#about img {
+  height: 400px;
+  width: 400px;
+}
+
+#about #left {
+  width: 40%;
+}
+
+#about #right {
+  width: 40%;
+}
+
+#aboutMore {
+  margin-left: 47%;
+  margin-top: 15px;
+  background-color: #B78700;
+  padding: 10px;
+  width: 6%;
+  text-align: center;
+  border-radius: 8px;
+  transition: .4s;
+}
+
+#aboutMore p {
+  font-weight: bold;
+  color: white;
+}
+
+#aboutMore a {
+  text-decoration: none;
+}
+
+#aboutMore:hover {
+  transform: scale(1.1);
+  transition: all .4s ease;
+}
+
+#footer {
+  background-color: #B78700;
+  text-align: center;
+  padding-top: 5px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#footer p {
+  color: white;
+  font-weight: bold;
+}
+
+#cover {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#cover img {
+  width: 100%;
+}
+
+form {
+  width: 25%;
+  margin-left: 37%;
+  margin-bottom: 100px;
+}
+
+input[type=text] {
+  width: 100%;
+  border: none;
+  background-color: #262626;
+  border-bottom: 2px solid white;
+  outline: none;
+  font-size: 20px;
+  margin-top: 25px;
+  color: white;
+}
+
+input[type=number] {
+  width: 100%;
+  border: none;
+  background-color: #262626;
+  border-bottom: 2px solid white;
+  outline: none;
+  font-size: 20px;
+  margin-top: 25px;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: #B78700;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+textarea {
+  margin-top: 25px;
+  resize: none;
+  width: 100%;
+  height: 100px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 19px;
+  background-color: #262626;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  margin-top: 100px;
+}
+
+#contact {
+  position: absolute;
+  margin-top: 150px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#address {
+  float: left;
+  width: 49%;
+  padding-top: 500px;
+  color: white;
+}
+
+#map {
+  padding-top: 100px;
+  float: right;
+  width: 50%;
+}
+
+#map img {
+  width: 100%;
+  border: 5px solid #B78700;
+  border-radius: 0px;
+}
+
+.about_img {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.about_img img {
+  width: 24%;
+}
+
+#about_p {
+  text-align: justify;
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  margin-bottom: 100px;
+}
